@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    .header{
+        margin-top: 10px;
+    }
+    .nav{
+        margin-top: 10px;
+    }
+
+    .profile-pic {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 5px solid #fff;
+        margin-left: 80px;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #333;
+      transition: color 0.2s;
+    }
+    .social-icons a:hover {
+      color: #007bff;
+    }
+
+    .card {
+      margin-bottom: 30px;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .contact-form {
+      margin-top: 50px;
+      width: 100%;
+      background-color: rgb(243, 239, 239);
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .form-control {
+      border-radius: 20px;
+      padding: 15px;
+      border-color: #ced4da;
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #80bdff;
+    }
+    .btn-primary {
+      border-radius: 20px;
+      padding: 12px 30px;
+      background-color: #007bff;
+      border-color: #007bff;
+      transition: all 0.3s;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+    footer {
+    background-color: #343a40;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+          
+          <div class="header col-md-4">
+            <h2 class ="display-6">ALI KHALID</h2>
+
+          </div>
+
+          <div class="col-md-8" >
+            <ul class="nav nav-pills" style="margin-left: 150px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#1">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#2">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#3">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#4">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#2c">Contact Us</a>
+                </li>
+
+
+              </ul>
+          </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 150px;">
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <h1 class="display-4">Hi! I am Ali Khalid</h1>
+                    <p class="lead">Frontend Developer</p>
+                    <p>High level experience in Web Design and producing quality work</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100012268621254" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://github.com/alibhatti1010" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/ali-khalid-bhatti-81273b2b8" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <img src="pic2.jpeg" alt="Your Name" class="profile-pic img-fluid">
+            </div>
+        </div>
+
+      </div>
+      <div class="container text-center my-5">
+        <h1 id="1" class="display-4">Education</h1>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="background-color: rgb(243, 239, 239);">
+                <div class="card-body">
+                  <h5 class="card-title">Bachelor of Science in Computer Science</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><a href="https://www.umt.edu.pk/" target="_blank">University of Management and Technology</a></h6>
+                  <p class="card-text">Graduation Year: 2025</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="background-color: rgb(243, 239, 239);">
+                  <div class="card-body">
+                    <h5 class="card-title">Intermediate in Fsc.Pre-engineering</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"><a href="https://pgc.edu/" target="_blank">Punjab Group of Colleges</a></h6>
+                    <p class="card-text">Passing Year: 2020</p>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-4">
+                <div class="card" style="background-color: rgb(243, 239, 239);">
+                  <div class="card-body">
+                    <h5 class="card-title">Matriculation in Biology</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"><a href="https://swsmughalpura.org/society-public-school/" target="_blank">Society Public School</a></h6>
+                    <p class="card-text">Passing Year: 2018</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="container text-center my-5">
+        <h1 id="2" class="display-4">Experience</h1>
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card" style="background-color: rgb(243, 239, 239);">
+                <div class="card-body">
+                  <h5 class="card-title">Software Developer Intern</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">ABC Company</h6>
+                  <p class="card-text">MArch 2024 - April 2024</p>
+                  <p class="card-text"> Developed and maintained web applications using JavaScript, HTML, and CSS.</p>
+                  <p class="card-text"> Collaborated with cross-functional teams to define and solve complex problems.</p>
+                  <p class="card-text"> Implemented new features and optimized existing code for better performance.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="background-color: rgb(243, 239, 239);">
+                  <div class="card-body">
+                    <h5 class="card-title">SQA Intern</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">XYZ Company</h6>
+                    <p class="card-text">January 2023 - May 2023</p>
+                    <p class="card-text">  Ability to build and perform manual and automated software testing processes.</p>
+                    <p class="card-text"> Practice of monitoring all software engineering processes, methods, and work products to ensure compliance against defined standards.</p>
+                    <p class="card-text"> Agile Methods </p>
+                </div>
+                </div>
+              </div>
+      </div>
+
+      <div class="container text-center my-5">
+        <h1 id="3" class="display-4">Skills</h1>
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card" style="background-color: rgb(243, 239, 239);">
+                <div class="card-body">
+                  <h5 class="card-title">Programming Languages</h5>
+                  <div class="mb-2">JavaScript</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                  <div class="mb-2">Python</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <div class="mb-2">Java</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div>
+                  <div class="mb-2">C++</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card" style="background-color: rgb(243, 239, 239);">
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <div class="mb-2">HTML</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                  <div class="mb-2">CSS</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                  </div>
+                  <div class="mb-2">Bootstrap</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                  </div>
+                  <div class="mb-2">React</div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="container text-center my-5">
+        <h1 id="4" class="display-4">Products</h1>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card project-card" style="background-color: rgb(243, 239, 239);">
+                <img src="cms.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                  <h5 class="card-title">College Management System</h5>
+                  <p class="card-text">Database Project using SQL, Wordpress, PHP.</p>
+                  <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card" style="background-color: rgb(243, 239, 239);">
+                  <img src="hms.jpeg" class="card-img-top" alt="Project 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Hospital Management System</h5>
+                    <p class="card-text">Python project using MongoDB.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card project-card" style="background-color: rgb(243, 239, 239);">
+                  <img src="bb.webp" class="card-img-top" alt="Project 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Blood Bank Management System</h5>
+                    <p class="card-text">Running EC2 instance of global project.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form class="contact-form">
+              <h2 id="2c">Contact Us</h2>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-dark text-white text-center py-3">
+        <p> Ali Khalid F2021266006. All Rights Reserved.</p>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
